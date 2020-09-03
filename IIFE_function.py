@@ -1,0 +1,5 @@
+# Immediately Invoked Function Expression ( IIFE )
+(lambda x : print(x+1)) (10)
+(lambda x,y : print(x+y))(10,20)
+(lambda x,y=20 : print(x+y))(10)
+(lambda x,y=20 : print(x+y))(x=10)
